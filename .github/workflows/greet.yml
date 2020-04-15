@@ -1,0 +1,10 @@
+name: greet everyone
+on: [push]
+
+jobs:
+    greet_hoge:
+        name: greeting
+        runs-on: ubuntu-latest
+        steps:
+            - name: Hello World
+              run: echo Hi there.
